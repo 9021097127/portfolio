@@ -1,12 +1,13 @@
 import React from "react";
+import myImg from "../images/myimg.jpeg"; // Ensure the image is in the correct directory
 
 const Home = () => {
   return (
-    <section className="flex items-center justify-center h-screen bg-[#DCF3F4] text-gray-900 px-10">
+    <section className="flex flex-col md:flex-row items-center justify-center min-h-screen bg-[#DCF3F4] text-gray-900 px-4 md:px-10">
       {/* Left Side - Text Content */}
-      <div className="w-1/2">
-        <h1 className="text-4xl font-bold mb-4">Hi, I'm Kiran</h1>
-        <p className="text-lg text-gray-700">
+      <div className="w-full md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+        <h1 className="text-3xl sm:text-4xl font-bold mb-4">Hi, I'm Kiran</h1>
+        <p className="text-base sm:text-lg text-gray-700">
           I am a passionate{" "}
           <span className="text-blue-600">.NET Developer</span>
           specializing in building high-performance web applications and
@@ -18,11 +19,11 @@ const Home = () => {
       </div>
 
       {/* Right Side - Image */}
-      <div className="w-1/2 flex justify-center">
+      <div className="w-full md:w-1/2 flex justify-center">
         <img
-          src="./public/myimg.jpeg"
+          src={myImg} // Use the imported image
           alt="Profile"
-          className="w-80 h-90 object-cover rounded-2xl shadow-lg"
+          className="w-64 sm:w-80 h-auto object-cover rounded-2xl shadow-lg"
         />
       </div>
     </section>

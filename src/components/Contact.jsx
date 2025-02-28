@@ -25,41 +25,41 @@ const Contact = () => {
               title: "Email",
               detail: "kiranbhosale4105@gmail.com",
               link: "mailto:kiranbhosale4105@gmail.com",
-              icon: "/images/icons8-gmail.svg",
+              icon: "https://raw.githubusercontent.com/SomnathBansode/Somnathsportfolio/1b4db38cdecae48fc0799d8d50ccf8f74bda02e8/public/images/icons8-gmail.svg",
               alt: "Email Icon",
             },
             {
               title: "LinkedIn",
               detail: "Kiran Bhosale",
               link: "https://www.linkedin.com/in/kiran-bhosale-7bb373224/",
-              icon: "/images/icons8-linkedin.svg",
+              icon: "https://raw.githubusercontent.com/SomnathBansode/Somnathsportfolio/1b4db38cdecae48fc0799d8d50ccf8f74bda02e8/public/images/icons8-linkedin.svg",
               alt: "LinkedIn Icon",
             },
             {
               title: "GitHub",
               detail: "KiranBhosale",
-              link: "https://github.com/kiran4105",
-              icon: "/images/icons8-github.svg",
+              link: "https://github.com/9021097127",
+              icon: "https://raw.githubusercontent.com/SomnathBansode/Somnathsportfolio/1b4db38cdecae48fc0799d8d50ccf8f74bda02e8/public/images/icons8-github.svg",
               alt: "GitHub Icon",
             },
             {
               title: "Phone",
               detail: "+91 9021097127",
               link: "tel:+919021097127",
-              icon: "/images/icons8-phone.svg",
+              icon: "https://static.vecteezy.com/system/resources/previews/002/261/151/original/phone-icon-symbol-sign-isolate-on-white-background-illustration-free-vector.jpg",
               alt: "Phone Icon",
             },
             {
               title: "Location",
               detail: "Pune, Maharashtra",
               link: "#",
-              icon: "/images/icons8-location.svg",
+              icon: "https://png.pngtree.com/png-clipart/20230427/original/pngtree-3d-pin-map-location-icon-transparent-psd-png-image_9116189.png",
               alt: "Location Icon",
             },
           ].map((item, idx) => (
             <div
               key={idx}
-              className="bg-zinc-800 rounded-lg p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center space-y-4 border border-gray-700"
+              className="bg-zinc-700 rounded-lg p-6 shadow-lg hover:shadow-2xl transition-shadow duration-300 flex flex-col items-center space-y-4 border border-gray-700"
             >
               {/* Icon with background, rounded borders, and padding */}
               <div className="bg-white rounded-full p-3">
